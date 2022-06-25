@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: #027585;
+}
+h2{
+    color: #00ff9dc5;
+    font-size: 10vw;
+    margin-bottom: 5px;
+}
+/*Cabeçalho*/
+header{
+    display: grid;
+    grid-template-columns: 80px auto 90px;
+    gap: 10px;
+    background-color: #ebd67d;
+    padding: 10px;
+}
+#logo img{
+    height: 80px;
+}
+#lema{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(7, 185, 255);
+}
+#busca input{
+    margin-top: 30px;
+    width: 75%;
+}
+button img{
+    width: 15px;
+}
+#lupa{
+    width: 15px;
+}
+/*Barra de menu*/
+nav{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: white;
+    height: 40px;
+    text-align: center;
+    border-bottom: 3px solid #16a06b;
+    border-top: 3px solid #16a06b;
+    padding-top: 15px;
+}
+nav div a:hover{
+    color: white;
+    background-color: #16a06b;
+}
+nav div a{
+    text-decoration: none;
+    color: #16a06b;
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 2%;
+    padding: 15px 2%;
+}
+/*Menu*/
+#banner img{
+    border-radius: 20px 50px;
+    box-shadow: 10px 10px 15px black;
+}
+.destaque{
+    padding-bottom: 5px;
+}
+.destaque-descricao h2{
+    font-size: 7vw;
+}
+.destaque-imagem img{
+    border-radius: 30px;
+}
+.destaque-descricao{
+    text-align: center;
+    font-size: 5vw;
+}
+section{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+/*Roteiros*/
+.rotas div{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+}
+.rotas{
+    margin: 10px 0 10px 0;
+}
+.rotas img{
+    border-radius: 30px;
+}
+.rotas div p{
+    font-size: 5vw;
+}
+section div a{
+    font-size: 5vw;
+    color: rgba(63, 196, 214, 0.76);
+}
+/*Pacotes*/
+.conteudo{
+    text-align: center;
+}
+.conteudo p{
+    padding-bottom: 10px;
+}
+.conteudo h3{
+    color: rgba(35, 187, 35, 0.767);
+    font-size: 5vw;
+}
+section div img{
+    width: 100%;
+    border-radius: 30px;
+}
+/*Contato*/
+input{
+    border: 1px solid black;
+    width: 50%;
+}
+#enviar{
+    margin-left: 40px;
+}
+textarea{
+    width: 50%;
+    margin-left: 40px;
+}
+.informa{
+    font-size: 22px;
+}
+#indetify{
+    margin: auto;
+    width: 60%;
+}
+#info{
+    width: 60%;
+    margin: auto;
+}
+#info h3{
+    font-size: 22px;
+}
+/*Rodapé*/
+
+#rodape{
+    display: grid;
+    grid-template-columns: 34% 33% 24% ;
+    text-align: center;
+    margin-left: 20px;
+}
+#insta{
+    font-size: 18px;
+}
+#twiter{
+    font-size: 18px;
+}
+#youtube{
+    font-size: 18px;
+}
+#rodape div li a{
+    color: rgb(53, 50, 50);
+}
+#rodape div li a:hover{
+    color: white;
+    background-color: rgb(240, 68, 68);
+}
+#Links{
+    list-style-position: inside;
+}
+.inst{
+    list-style-image: url("../imagens/Insta.png");
+}
+.Twi{
+    list-style-image: url("../imagens/Twitter.png");
+}
+.You{
+    list-style-image: url("../imagens/Youtube.png");
+}

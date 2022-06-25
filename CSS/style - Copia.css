@@ -1,0 +1,223 @@
+@font-face {
+    font-family: indie-flower;
+    src: url('../Fonts/indie-flower/IndieFlower-Regular.ttf');  
+}
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Bangers', 'Teko', indie-flower;
+    box-sizing: border-box;
+}
+h2{
+    color: #00ff9d;
+    font-size: 2.9vw;
+}
+p{
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 2.1vw;
+}
+body{
+    background-color: #027585;
+}
+/*Cabeçalho*/
+header{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(209, 151, 74);
+    position: fixed;
+}
+#logo{
+    width: 25%;
+    float: left;
+}
+#logo img{
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 120px;
+}
+#lema{
+    color: rgb(7, 185, 255);
+    text-align: center;
+    font-size: 25px;
+    margin-top: 40px;
+    width: 50%;
+    float: left;
+}
+#busca{
+    margin-top: 59px;
+    width: 15%;
+    float: right;
+}
+button img{
+    width: 15px;
+    float: right;
+}
+#lupa{
+    width: 15px;
+}
+/*Barra de menu*/
+nav{
+    background-color: white;
+    margin-top: 150px;
+    width: 100%;
+    height: 65px;
+    border-bottom: 3px solid #16a06b;
+    border-top: 3px solid #16a06b;
+    padding-top: 15px;
+    position: fixed;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+}
+nav ul{
+    margin-left: 5%;
+}
+nav ul li a:hover{
+    color: white;
+    background-color: #16a06b;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #16a06b;
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 2%;
+    padding: 15px 2%;
+}
+/*Menu*/
+#banner{
+    margin-top: 1px;
+}
+#banner img{
+    border-radius: 20px 50px;
+    box-shadow: 10px 10px 15px black;
+}
+#destaques{
+    width: 100%;
+    margin-top: 20px;
+}
+.destaque{
+    width: 90%;
+    margin: 0 auto;
+}
+.destaque-descricao h2{
+    font-size: 2.4vw;
+}
+.destaque-imagem{
+    display: inline-block;
+    width: 30%;
+}
+.destaque-descricao{
+    float: right;
+    width: 65%;
+}
+section{
+    width: 80%;
+    min-height: 450px;
+    margin: 0 auto;
+    padding-top: 215px;
+}
+/*Roteiros*/
+.rotas{
+    width: 30%;
+    display: inline-block;
+    margin:0 5px 10px 5px;
+}
+section div a{
+    float: right;
+    margin-right: 15px;
+    font-size: 1.8vw;
+    color: rgb(63, 197, 214);
+}
+/*Pacotes*/
+.promo{
+    margin-top: 5px;
+}
+.ImPacote{
+    margin: 5px 0 2px 5px;
+    width: 30%;
+    display: inline-block;
+}
+.conteudo{
+    width: 65%;
+    float: right;
+    text-align: left;
+    margin-top: 20px;
+}
+.conteudo p{
+    color: rgb(185, 144, 67);
+    font-size: 2.1vw;
+}
+.conteudo h3{
+    color: rgba(35, 187, 35, 0.767);
+    font-size: 2.6vw;
+}
+section div img{
+    width: 100%;
+}
+/*Contato*/
+input{
+    border: 1px solid black;
+    width: 50%;
+}
+textarea{
+    width: 50%;
+}
+.informa{
+    font-size: 22px;
+}
+#indetify{
+    margin-left: 10%;
+    float: left;
+    width: 45%;
+}
+#info{
+    float: right;
+    width: 45%;
+}
+#info h3{
+    font-size: 22px;
+}
+/*Rodapé*/
+footer{
+    width: 50%;
+    margin: 0 auto;
+}
+#insta{
+    display: inline-block;
+    width: 33%;
+    font-size: 18px;
+}
+#twiter{
+    float: right;
+    width: 33%;
+    font-size: 18px;
+}
+#youtube{
+    float: right;
+    width: 34%;
+    font-size: 18px;
+}
+#rodape div li a{
+    color: rgb(53, 50, 50);
+}
+#rodape div li a:hover{
+    color: white;
+    background-color: rgb(240, 68, 68);
+}
+#Links{
+    list-style-position: inside;
+}
+.inst{
+    list-style-image: url("../imagens/Insta.png");
+}
+.Twi{
+    list-style-image: url("../imagens/Twitter.png");
+}
+.You{
+    list-style-image: url("../imagens/Youtube.png");
+}
