@@ -42,7 +42,7 @@ nav{
     display: grid;
     grid-template-columns: auto auto auto auto;
     background-color: white;
-    height: 40px;
+    height: 4,4vh;
     text-align: center;
     border-bottom: 3px solid #16a06b;
     border-top: 3px solid #16a06b;
@@ -167,6 +167,9 @@ textarea{
 }
 #youtube{
     font-size: 18px;
+}
+footer h4{
+    text-align: center;
 }
 #rodape div li a{
     color: rgb(53, 50, 50);
