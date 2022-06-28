@@ -152,41 +152,12 @@ textarea{
     font-size: 22px;
 }
 /*Rodapé*/
-
 #rodape{
     display: grid;
     grid-template-columns: 34% 33% 24% ;
     text-align: center;
     margin-left: 20px;
 }
-#insta{
-    font-size: 18px;
-}
-#twiter{
-    font-size: 18px;
-}
-#youtube{
-    font-size: 18px;
-}
 footer h4{
     text-align: center;
-}
-#rodape div li a{
-    color: rgb(53, 50, 50);
-}
-#rodape div li a:hover{
-    color: white;
-    background-color: rgb(240, 68, 68);
-}
-#Links{
-    list-style-position: inside;
-}
-.inst{
-    list-style-image: url("../imagens/Insta.png");
-}
-.Twi{
-    list-style-image: url("../imagens/Twitter.png");
-}
-.You{
-    list-style-image: url("../imagens/Youtube.png");
 }
