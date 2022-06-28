@@ -46,11 +46,15 @@ nav{
     text-align: center;
     border-bottom: 3px solid #16a06b;
     border-top: 3px solid #16a06b;
-    padding-top: 15px;
 }
 nav div a:hover{
     color: white;
     background-color: #16a06b;
+}
+nav div{
+    border-right: 1px solid #16a06b;
+    border-left: 1px solid #16a06b;
+    padding-top: 10px;
 }
 nav div a{
     text-decoration: none;
