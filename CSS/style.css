@@ -164,7 +164,10 @@ footer h4{
 }
 
 
-@media only screen and (min-width:700px){
+@media only screen and (min-width:800px){
+    h2{
+        font-size: 6vw;
+    }
     /*Cabeçalho*/
     header{
         display: grid;
@@ -187,11 +190,10 @@ footer h4{
     nav div a{
         font-size: 1.8vw;
     }
-    
     /*Menu*/
     #banner{
         width: 100%;
-        margin-top: 190px;
+        margin-top: 110px;
         margin-left: 30px;
     }
     #home h2{
@@ -199,10 +201,88 @@ footer h4{
     }
     section h2{
         margin-top: 160px;
+        margin-left: 15px;
+    }
+    .destaque-descricao h2{
+        font-size: 3vw;
+        color: rgba(151, 250, 2, 0.808);
+        
+    }
+    .destaque-descricao p{
+        font-size: 2.5vw;
+    }
+    .destaque-descricao{
+        margin-top: 20px;
+        margin-right: 10px;
+        text-align: left;
+    }
+    .destaque{
+        border: 1px solid ;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+    .destaque-imagem img{
+        box-shadow: 5px 30px 15px black;
+        border-radius: 30px;
+        width: 90%;
+        margin-top: 10px;
+        margin-left: 15px;
+        margin-bottom: 40px;
     }
     /*Roteiros*/
-
+    section h2{
+        margin-top: 90px;
+        margin-left: 15px;
+        display: grid;
+        grid-column: 1 / 4;
+    }
+    .rota{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+    .rotas{
+        margin-left: 15px;
+        margin-right: 35px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .rotas div{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .rotas div p{
+        font-size: 2vw;
+        margin-left: 10px;
+    }
+    section div a{
+        font-size: 2.1vw;
+    }
     /*Pacotes*/
+    .promo{
+        display: grid;
+        grid-template-columns: 32% 60%;
+        gap: 6%;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 15px;
+        border: 1px solid rgba(151, 250, 2, 0.808);
+    }
+    .conteudo h3{
+        color: rgba(151, 250, 2, 0.808);
+        font-size: 3.5vw;
+        margin-top: 25px;
+    }
+    .conteudo p{
+        font-size: 1.7vw;
+        margin-top: 25px;
+    }
+    .ImPacote img{
+        margin-bottom: 25px;
+        margin-top: 25px;
+        margin-left: 20px;
+    }
     /*Contato*/
     /*Rodapé*/
 }
