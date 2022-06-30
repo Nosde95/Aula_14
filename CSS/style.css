@@ -40,13 +40,13 @@ button img{
 /*Barra de menu*/
 nav{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 25% 25% 25% 25%;
     background-color: white;
-    height: 4,4vh;
     text-align: center;
 }
 nav div:hover{
     background-color: #16a06b;
+    color: white;
 }
 nav div a:hover{
     color: white;
@@ -64,8 +64,7 @@ nav div a{
     color: #16a06b;
     font-size: 4vw;
     font-weight: bold;
-    margin-left: 2%;
-    padding: 15px 30px;
+    padding: 15px 20px;
 }
 /*Menu*/
 #banner{
