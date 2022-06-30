@@ -164,7 +164,7 @@ footer h4{
 }
 
 
-@media only screen and (min-width:500px){
+@media only screen and (min-width:700px){
     /*Cabeçalho*/
     header{
         display: grid;
@@ -175,24 +175,30 @@ footer h4{
     }
     /*Barra de menu*/
     nav{
-        display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-columns: auto;
         background-color: white;
+        display: grid;
+        grid-template-rows: 25% 25% 25% 25%;
+        justify-content: start;
         text-align: center;
         position: fixed;
-        width: 100%;
         margin-top: 104px;
     }
+    nav div a{
+        font-size: 1.8vw;
+    }
+    
     /*Menu*/
     #banner{
         width: 100%;
-        margin-top: 170px;
+        margin-top: 190px;
+        margin-left: 30px;
     }
     #home h2{
         margin-top: 0;
     }
     section h2{
-        margin-top: 150px;
+        margin-top: 160px;
     }
     /*Roteiros*/
 
