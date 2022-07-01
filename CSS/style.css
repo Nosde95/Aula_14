@@ -162,11 +162,9 @@ textarea{
 footer h4{
     text-align: center;
 }
-
-
 @media only screen and (min-width:800px){
     h2{
-        font-size: 6vw;
+        font-size: 5vw;
     }
     /*Cabeçalho*/
     header{
@@ -196,6 +194,9 @@ footer h4{
         margin-top: 110px;
         margin-left: 30px;
     }
+    #home{
+        margin-bottom: 15px;
+    }
     #home h2{
         margin-top: 0;
     }
@@ -217,7 +218,7 @@ footer h4{
         text-align: left;
     }
     .destaque{
-        border: 1px solid ;
+        border: 1px solid rgba(151, 250, 2, 0.808);
         display: grid;
         grid-template-columns: 50% 50%;
         margin-left: 30px;
@@ -233,8 +234,9 @@ footer h4{
     }
     /*Roteiros*/
     section h2{
-        margin-top: 90px;
-        margin-left: 15px;
+        font-size: 4vw;
+        margin-top: 110px;
+        margin-left: 25px;
         display: grid;
         grid-column: 1 / 4;
     }
@@ -283,6 +285,53 @@ footer h4{
         margin-top: 25px;
         margin-left: 20px;
     }
+    #pacotes{
+        margin-bottom: 15px;
+    }
     /*Contato*/
+    #contato{
+        display: grid;
+        grid-template-columns: 60% 35% ;
+    }
+    #indetify{
+        margin:0;
+        margin-left: 25px;
+        margin-top: 50px;
+        margin-right: 0;
+        width: 100%;
+    }
+    #indetify form{
+        display: grid;
+        grid-template-rows: 35px 35px 35px 200px 20px;
+    }
+    textarea{
+        margin-bottom: 10px;
+    }
+    #info{
+        margin: 0;
+        margin-top: 120px;
+        width: 100%;
+    }
+    #indetify h3{
+        font-size: 2vw;
+    }
+    #info h3{
+        margin-top: 15px;
+        font-size: 2vw;
+    }
+    #info p{
+        font-size: 1.5vw;
+    }
     /*Rodapé*/
+    #rodape{
+        margin-top: 15px;
+        justify-content: center;
+        grid-template-columns: auto auto auto;
+        gap: 30px;
+        margin-bottom: 15px;
+    }
+    footer h4{
+        margin-top: 20px;
+        font-size: 2vw;
+    }
 }
