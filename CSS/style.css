@@ -303,6 +303,7 @@ footer h4{
     #indetify form{
         display: grid;
         grid-template-rows: 35px 35px 35px 200px 20px;
+        gap: 10px;
     }
     textarea{
         margin-bottom: 10px;
