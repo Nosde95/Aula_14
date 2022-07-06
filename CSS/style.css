@@ -127,7 +127,7 @@ section div img{
     border-radius: 30px;
 }
 /*Contato*/
-input{
+#indetify input{
     border: 1px solid black;
     width: 50%;
 }
@@ -300,10 +300,13 @@ footer h4{
         margin-right: 0;
         width: 100%;
     }
+    #indetify input{
+        height: 30px;
+    }
     #indetify form{
         display: grid;
-        grid-template-rows: 35px 35px 35px 200px 20px;
-        gap: 10px;
+        grid-template-rows: 40px 40px 35px 200px 20px;
+        gap: 13px;
     }
     textarea{
         margin-bottom: 10px;
